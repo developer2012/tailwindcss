@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-top py-5 border-b-2 border-[#FEC80B]">
+            <div class="container w-[80%] max-w-7xl my-0 mx-auto flex justify-between items-center">
+                <div class="flex items-center gap-5">
+                    <img src="./images/logo.png" alt="logo">
+                    <span class="w-[167px] text-sm">производство и продажа автоспецтехники</span>
+                </div>
+
+                <div class="flex">
+                    <p class="w-[262px] text-sm"><b>Время работы.</b><br> Нижний Новгород ул. Торфяная, 35</p>
+                    <p class="w-[251px] text-sm">Для регионов: 8 (800) 77-77-210 Нижний Новгород: 8 (831) 225-00-55</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-4 header-bottom">
+            <div class="container max-w-7xl w-[80%] mx-auto flex justify-between items-center">
+                <nav>
+                    <ul class="flex items-center gap-10">
+                        <li><button class="bg-[#FEC80B] py-2 px-4 rounded">Каталог</button></li>
+                        <li><a class="font-normal font-fireSans" href="#">О нас</a></li>
+                        <li><a class="font-normal font-fireSans" href="#">Медиа</a></li>
+                        <li><a class="font-normal font-fireSans" href="#">Сервис</a></li>
+                        <li><a class="font-normal font-fireSans" href="#">Новости</a></li>
+                        <li><a class="font-normal font-fireSans" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="flex items-center gap-4">
+                    <input class="border-[#FEC80B] border px-4 py-2 rounded-[40px] outline-none" type="search">
+                    <img src="./images/bucket.png" alt="bucket">
+                    <img src="./images/heart.png" alt="heart">
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="bg-white">
+        <section>
+            <div class="w-full h-full bg-cover hero bg-heroBg">
+                <div class="container max-w-7xl w-[80%] mx-auto">
+                    <p class="text-[white] text-5xl pt-[136px]">Завод-производитель автоспецтехники</p>
+                    <p class="mt-4 text-sm font-bold text-[#FFFFFF]">ООО «РусТрак» — это компания, занимающаяся <br>
+                        производством и поставкой специализированной <br> техники и спецтранспорта</p>
+                    <button
+                        class="bg-[#FEC80B] w-[185px] h-[44px] mt-14 rounded-md hover:text-white border-2 border-[#FEC80B] border-solid mb-[137px]">Открыть
+                        каталог</button>
+                    <button
+                        class="text-white w-[185px] h-[44px] mt-14 rounded-md border-2 border-[#FEC80B] border-solid mb-[137px]">Открыть
+                        каталог</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container max-w-7xl w-[80%] mx-auto mt-20">
+                <h2 class="text-3xl font-bold">Наши преимущества</h2>
+                <div class="flex gap-6 mt-8">
+
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-xl">Автофургоны</h3>
+                        <p class="mt-2 text-sm">27 моделей</p>
+                        <img src="/images/Rectangle 407.png" alt="" class="jusify-right">
+
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-xl">Автофургоны</h3>
+                        <p class="mt-2 text-sm">27 моделей</p>
+                        <img src="/images/Rectangle 407.png" alt="" class="jusify-right">
+
+
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-xl">Автофургоны</h3>
+                        <p class="mt-2 text-sm">27 моделей</p>
+                        <img src="/images/Rectangle 407.png" alt="" class="jusify-right">
+
+
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg">
+                        <h3 class="text-xl">Автофургоны</h3>
+                        <p class="mt-2 text-sm">27 моделей</p>
+                        <img src="/images/Rectangle 407.png" alt="" class="jusify-right">
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <div class="container max-w-7xl w-[80%] mx-auto mt-20">
+                <div class="flex items-center gap-1">
+                    <div class="mt-[156px] text">
+                        <p class="text-4xl">О компании Рустрак</p>
+                        <p class="mt-6">Наша компания не случайно занимает лидирующие позиции на рынке спецтехники:
+                            каждый день мы вносим свой вклад в развитие отечественного автопрома и укрепление российской
+                            экономики. <br><br>
+                            Наша компания снискала признание среди крупнейших отечественных корпораций и государственных
+                            структур, став поставщиком спецтехники для таких гигантов, как Газпром, Росатом, Россети,
+                            РСК «МИГ» и других.</p>
+                        <button
+                            class="border-[#FEC80B] border-solid border-2 bg-[#FEC80B] rounded-[4px] w-[175px] h-[34px] mt-16">Подробнее</button>
+                    </div>
+                    <img src="/images/Frame 55.png" class="w-[70%] h-[50%]">
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#FEC80B]">
+            <div class="container max-w-7xl w-[80%] mx-auto mt-20">
+                <div class="flex gap-6 mt-8">
+                    <div class="container">
+                        <p class="text-5xl">5</p>
+                        <p class="text-2xl">лет</p>
+                        <p class="mt-6">
+                            За 5 лет своей деятельности ООО <br> «РусТрак» превратилось в крупное <br> предприятие по
+                            производству и <br> продаже специальной техники
+                        </p>
+                    </div>
+                    <div class="container">
+                        <p class="text-5xl">95</p>
+                        <p class="text-2xl">субъектов</p>
+                        <p class="mt-6">
+                            Мы обеспечили 95 субъектов РФ <br> надежной техникой коммерческого <br> и
+                            специализированного <br> предназначения
+                        </p>
+                    </div>
+                    <div class="container">
+                        <p class="text-5xl">10</p>
+                        <p class="text-2xl">концернов</p>
+                        <p class="mt-6">
+                            ООО «РусТрак» дорожит доверием <br> автопрома, которое подтверждено <br> дилерскими
+                            полномочиями от 10 <br> лидирующих концернов
+                        </p>
+                    </div>
+                </div>
+            </div><br><br>
+            <section class="bg-white mt-[156px]">
+                <div class="container max-w-7xl w-[80%] mx-auto mt-[156px]">
+                    <div class="flex gap-6 mt-8">
+
+                        <img src="/images/Group 881.png" alt="">
+                        <div class="grid mt-20 text-cenetr">
+                            <p>Собственное производство полного цикла</p>
+                            <p>Конструкторское бюро</p>
+                            <p>Постоянное улучшение технологии</p>
+                            <p>Постоянное улучшение технологии</p>
+                            <p>Сертификация ISO 9001</p>
+                        </div>
+                        <div class="flex items-center justify-center pl-32">
+                            <img src="/images/Rectangle 623.png" alt="">
+                            <div class="p">
+                                <img src="/images/setting 1.png" alt="">
+                                <p>Производство располагается в цехах площадью более 700 квадратных метров. Производство
+                                    укомплектовано современным оборудованием: Плазменная резка, окрасочная камера,
+                                    дробеструиная камера, сварочные полуавтоматы, листогибочные станки, станок
+                                    ленточнопильныи и др.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="bg-[#F9F9F9]">
+                <div class="container max-w-7xl w-[80%] mx-auto pt-[156px]">
+                    <p class="text-5xl">Рекомендуемая продукция</p>
+                    <div class="flex gap-6">
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/image 28.png" alt="">
+                            <p>HYUNDAI HD 78 c промтоварным <br> фургоном</p>
+                            <p class="text-xl font-bold">от 352 000₽</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="bg-[#FEC80B] border-none rounded-lg w-[146px] h-[44px]">Подробнее</button>
+                                <button class="bg-white">Получить КП</button>
+                            </div>
+                        </div>
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/image 28.png" alt="">
+                            <p>HYUNDAI HD 78 c промтоварным <br> фургоном</p>
+                            <p class="text-xl font-bold">от 352 000₽</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="bg-[#FEC80B] border-none rounded-lg w-[146px] h-[44px]">Подробнее</button>
+                                <button class="bg-white">Получить КП</button>
+                            </div>
+                        </div>
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/image 28.png" alt="">
+                            <p>HYUNDAI HD 78 c промтоварным <br> фургоном</p>
+                            <p class="text-xl font-bold">от 352 000₽</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="bg-[#FEC80B] border-none rounded-lg w-[146px] h-[44px]">Подробнее</button>
+                                <button class="bg-white">Получить КП</button>
+                            </div>
+                        </div>
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/image 28.png" alt="">
+                            <p>HYUNDAI HD 78 c промтоварным <br> фургоном</p>
+                            <p class="text-xl font-bold">от 352 000₽</p>
+                            <div class="flex gap-4">
+                                <button
+                                    class="bg-[#FEC80B] border-none rounded-lg w-[146px] h-[44px]">Подробнее</button>
+                                <button class="bg-white">Получить КП</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white">
+                <div class="container max-w-7xl w-[80%] mx-auto pt-[156px]">
+                    <p class="text-5xl">Новости</p>
+                     <div class="flex gap-6">
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/dea17ca857ef942de39232e94bcfbf60d1755165.jpg" alt="">
+                            <p>15.06.2021</p>
+                            <p class="font-bold text-">КАМАЗ готовит конкурента ГАЗели и Валдая (первые ФОТО)</p>
+                            <div class="flex gap-4">
+                                <button class="bg-white">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/dea17ca857ef942de39232e94bcfbf60d1755165.jpg" alt="">
+                            <p>15.06.2021</p>
+                            <p class="text-lg font-bold">КАМАЗ готовит конкурента ГАЗели и Валдая (первые ФОТО)</p>
+                            <div class="flex gap-4">
+                                <button class="bg-white">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/dea17ca857ef942de39232e94bcfbf60d1755165.jpg" alt="">
+                            <p>15.06.2021</p>
+                            <p class="font-bold text-">КАМАЗ готовит конкурента ГАЗели и Валдая (первые ФОТО)</p>
+                            <div class="flex gap-4">
+                                <button class="bg-white">Подробнее</button>
+                            </div>
+                        </div>
+                        <div class="grid pt-10 bg-white">
+                            <img src="/images/dea17ca857ef942de39232e94bcfbf60d1755165.jpg" alt="">
+                            <p>15.06.2021</p>
+                            <p class="font-bold text-">КАМАЗ готовит конкурента ГАЗели и Валдая (первые ФОТО)</p>
+                            <div class="flex gap-4">
+                                <button class="bg-white">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+            <section class="bg-white">
+            <div class="container max-w-7xl w-[80%] mx-auto pt-[156px]">
+            <div class="flex gap-[2px]">
+                
+                <img src="/images/image 16.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 19.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 20.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 21.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 22.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 23.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 16.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 19.png" alt="" class="w-[100%] h-[100%]">
+                <img src="/images/image 20.png" alt="" class="w-[100%] h-[100%]">
+            </div>
+        </div>
+            </section>
+            <section class="bg-[#F2F2F2]">
+            <div class="container max-w-7xl w-[80%] mx-auto pt-[156px]">
+                <div class="flex gap-[84px] justify-between">
+                    <div class="grid">
+                <p class="text-5xl">ОСТАЛИСЬ ВОПРОСЫ?</p>
+                <p class="pt-1">Оставьте свои контактные данные, и мы презвоним вам в ближайшее время</p>
+                <div class="flex">               .
+                <p class="pt-9">Имя</p>
+                <p class="pl-[280px] pt-9">Телефон</p>
+                </div>
+                <div class="flex gap-[19px]">
+                <input type="text" class="pl-10 w-[294px] h-[44px] border-[1px] border-black rounded-md" placeholder="Иван Иванов">
+                <input type="text" class="pl-10 w-[294px] h-[44px] border-[1px] border-black rounded-md" placeholder="+7">
+                <button class="bg-[#FEC80B] w-[185px] rounded-md">Открыть каталог</button>
+                </div>
+                <p class="pt-1">Нажимая на кнопку отправить Вы соглашаетесь на обработку Ваших персональных данных компание ООО «Рустрак»</p>
+                </div>
+                <img src="/images/3d-render-of-a-cargo-delivery-truck (1) 2.png" alt="" class="w-[29%]">
+                </div>
+            </div>                
+            </section>
+    </main>
+    <footer class="bg-black text-[#FFFFFF]">
+        <div class="container max-w-7xl w-[80%] mx-auto pt-[64px]">
+            <div class="flex">
+                <div class="grid">
+                    <p>Тел/факс: 8(831) 225-00-55</p>
+                    <p>Email: info@rtrf.ru</p>
+                    <p>Нижний Новгород, ул. Торфяная, 35</p>
+                    <button class="bg-[#FEC80B] h-[44px] w-[184px] pt-[3px] text-black mt-4">Заказать звонок</button>
+                    <p class="mt-[55px]">2009 - 2021 © Rus - Trucks <br>
+Информация на сайте не является публичной офертой и носит <br> исключительно информационный характер
+<br><br>
+Разработка R-top</p>
+                </div>
+                
+                <div class="flex gap-[102px]">
+                <nav>
+                    <ul>
+                        <li>Название блока</li>
+                        <li>Категории</li>
+                        <li>Каталог</li>
+                        <li>Избранное</li>
+                        <li>О компании</li>
+                        <li>Вакансии</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>Название блока</li>
+                        <li>Категории</li>
+                        <li>Каталог</li>
+                        <li>Избранное</li>
+                        <li>О компании</li>
+                        <li>Вакансии</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul>
+                        <li>Название блока</li>
+                        <li>Категории</li>
+                        <li>Каталог</li>
+                        <li>Избранное</li>
+                        <li>О компании</li>
+                        <li>Вакансии</li>
+                    </ul>
+                </nav>
+            </div><br>
+            <p class="mt-[240px] absolute right-[400px]">
+            <img src="/images/icons social media.png" alt="">
+            </p>
+        </div>
+           </div>
+    </footer>
+</body>
+
+</html>
